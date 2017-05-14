@@ -106,6 +106,8 @@ public class MainActivity extends AppCompatActivity {
             if (!listPermissionsNeeded.isEmpty()) {
                 ActivityCompat.requestPermissions(this, listPermissionsNeeded.toArray(new String[listPermissionsNeeded.size()]), REQUEST_ID_MULTIPLE_PERMISSIONS);
                 return false;
+            }else{
+                return true;
             }
         }
         return false;
