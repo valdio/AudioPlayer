@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private boolean checkAndRequestPermissions() {
-        if(SDK_INT>= Build.VERSION_CODES.M){
+        if (SDK_INT >= Build.VERSION_CODES.M) {
             int permissionReadPhoneState = ContextCompat.checkSelfPermission(this, Manifest.permission.READ_PHONE_STATE);
             int permissionStorage = ContextCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE);
             List<String> listPermissionsNeeded = new ArrayList<>();
@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
             if (!listPermissionsNeeded.isEmpty()) {
                 ActivityCompat.requestPermissions(this, listPermissionsNeeded.toArray(new String[listPermissionsNeeded.size()]), REQUEST_ID_MULTIPLE_PERMISSIONS);
                 return false;
-            }else{
+            } else {
                 return true;
             }
         }
@@ -186,7 +186,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void initRecyclerView() {
-        if (audioList.size() > 0) {
+        if (audioList != null && audioList.size() > 0) {
             RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerview);
             RecyclerView_Adapter adapter = new RecyclerView_Adapter(audioList, getApplication());
             recyclerView.setAdapter(adapter);
@@ -197,7 +197,6 @@ public class MainActivity extends AppCompatActivity {
                     playAudio(index);
                 }
             }));
-
         }
     }
 

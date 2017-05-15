@@ -2,88 +2,22 @@
 <items version="2" >
 
     <item
-        jar="/home/valdio/AndroidProjects/AudioPlayer/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        is-multidex="true"
+        jar="C:\Users\valdi\Desktop\AudioPlayer\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
-        revision="23.0.3"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="/home/valdio/AndroidProjects/AudioPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_a8409795e747d2c3475eec2b69556f9a454f58cb/classes.dex" />
+        optimize="true"
+        revision="25.0.2"
+        sha1="8b5e5bcaafb99b053530cfb37f33d8dc4c59b9ac">
+        <dex dex="C:\Users\valdi\Desktop\AudioPlayer\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_54b0f17f227b8879b864b6f85e4c1945ada372bb\classes.dex" />
     </item>
     <item
-        jar="/home/valdio/AndroidProjects/AudioPlayer/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        is-multidex="true"
+        jar="C:\Users\valdi\Desktop\AudioPlayer\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
-        revision="23.0.3"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="/home/valdio/AndroidProjects/AudioPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_1d7c11fb0ee8143a6069db23353aec3cb7be3a0f/classes.dex" />
-    </item>
-    <item
-        jar="/home/valdio/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
-        <dex dex="/home/valdio/AndroidProjects/AudioPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_db6666f34121ac1af558bd2787d1dac7b833b9c1/classes.dex" />
-    </item>
-    <item
-        jar="/home/valdio/AndroidProjects/AudioPlayer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="/home/valdio/AndroidProjects/AudioPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_311c8c1b704e2b20129a0818f9cd5fa07c7bcd7d/classes.dex" />
-    </item>
-    <item
-        jar="/home/valdio/AndroidProjects/AudioPlayer/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.3.0/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="82ce13fd19cdfde0e392f03c27edeba8d4333648">
-        <dex dex="/home/valdio/AndroidProjects/AudioPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-23.3.0_4cb0e30ab6f0120a2d7b8153fb9f3223d59b621d/classes.dex" />
-    </item>
-    <item
-        jar="/home/valdio/AndroidProjects/AudioPlayer/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
-        <dex dex="/home/valdio/AndroidProjects/AudioPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.4.0_5812339bde51434a1e22ee5ad7df216df95c9990/classes.dex" />
-    </item>
-    <item
-        jar="/home/valdio/AndroidProjects/AudioPlayer/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="/home/valdio/AndroidProjects/AudioPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_b3eee58565de8f8ab516eb21cab9b1db911a9136/classes.dex" />
-    </item>
-    <item
-        jar="/home/valdio/AndroidProjects/AudioPlayer/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="/home/valdio/AndroidProjects/AudioPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_6a2be40ec4f55d610f511952e4b0884a38e223dd/classes.dex" />
-    </item>
-    <item
-        jar="/home/valdio/AndroidProjects/AudioPlayer/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
-        <dex dex="/home/valdio/AndroidProjects/AudioPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_5114ce026c64367564b224b608d0bc8d03d15e3f/classes.dex" />
-    </item>
-    <item
-        jar="/home/valdio/AndroidProjects/AudioPlayer/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="d0c96ae9e0cee5cbde77fb1f8639166301a991f4">
-        <dex dex="/home/valdio/AndroidProjects/AudioPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b3641f0a783b6332b79709a4c775102be9c0f974/classes.dex" />
-    </item>
-    <item
-        jar="/home/valdio/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="/home/valdio/AndroidProjects/AudioPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_19ec99ca9a526d7f1986750cfb6f6c2c28499041/classes.dex" />
-    </item>
-    <item
-        jar="/home/valdio/AndroidProjects/AudioPlayer/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="a9ae25d42d3f2faf8eac51e4c6e38c84b757a450">
-        <dex dex="/home/valdio/AndroidProjects/AudioPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_3d44e48bd42ec620af86e6fead5d22adc0aea65c/classes.dex" />
+        optimize="true"
+        revision="25.0.2"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="C:\Users\valdi\Desktop\AudioPlayer\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_314833d0a1a90fe52f488bb1a1dd09248f6d8f17\classes.dex" />
     </item>
 
 </items>
