@@ -280,13 +280,18 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-
+    /**
+     * Load audio files using {@link ContentResolver}
+     *
+     * If this don't works for you, load the audio files to audioList Array your oun way
+     */
     private void loadAudio() {
         ContentResolver contentResolver = getContentResolver();
 
         Uri uri = MediaStore.Audio.Media.EXTERNAL_CONTENT_URI;
         String selection = MediaStore.Audio.Media.IS_MUSIC + "!= 0";
         String sortOrder = MediaStore.Audio.Media.TITLE + " ASC";
+
         Cursor cursor = contentResolver.query(uri, null, selection, null, sortOrder);
 
         if (cursor != null && cursor.getCount() > 0) {
@@ -301,7 +306,8 @@ public class MainActivity extends AppCompatActivity {
                 audioList.add(new Audio(data, title, album, artist));
             }
         }
-        cursor.close();
+        if (cursor != null)
+            cursor.close();
     }
 
 
